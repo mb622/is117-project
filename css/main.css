@@ -1,0 +1,113 @@
+/* DEVELOPER: Matthew-Ian Blancaflor, IS117-004, Spring 2019 */
+
+body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 3px;
+    background-color:#10171e;
+}
+
+.navigation {
+    width: 410px;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    right: -100px;
+    margin-top: -60px;
+    font-size: 10px;
+    line-height: 18px;
+    letter-spacing: 2px;
+}
+
+.players {
+    position: fixed;
+    top: 0;
+    margin-top: 5em;
+    left: 1em;
+}
+
+.contact {
+    width: 50%;
+    margin: 0 auto;
+    border: 5px solid #c97991;
+    padding: 50px;
+}
+
+.container-fluid{
+    margin-bottom: 1em;
+}
+
+.navbar-default {
+    background-color: black;
+    background-image: none;
+    background-repeat: no-repeat;
+}
+
+#creds {
+    text-align: center;
+    margin: 0 25% 0 25%;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+mark {
+    background-color: #c97991;
+    color: white;
+}
+
+.dropdown-menu {
+    background-color: #c97991;
+}
+
+.nav-item {
+    background-color: #c97991;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: #c97991;
+}
+
+/* Left column */
+.column {
+    margin: 0 auto;
+    width: 70%;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: #16202a;
+    padding: 20px;
+    margin-top: 20px;
+}
